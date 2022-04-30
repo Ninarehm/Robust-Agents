@@ -1,0 +1,8 @@
+torch==1.10.0
+transformers==4.11.3
+transformers-interpret==0.5.2
+parlai==1.5.1
+matplotlib==3.4.3
+numpy==1.21.4
+pandas==1.3.4
+scikit-learn==1.0.1
