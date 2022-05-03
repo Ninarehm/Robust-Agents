@@ -103,3 +103,5 @@ for Oracle defense using 6 gram masking for UTA and UTA-LM attacks simply modify
 
 
 Note: To run the experiments, you will need Perspective API's key credientials. Please obtain the key and replace your key in places where API_KEY = 'replace the key with your key'
+
+For questions please reach out to ninarehm at usc dot edu
