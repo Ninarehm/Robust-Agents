@@ -99,9 +99,11 @@ python UTA_UTA-LM_runner.py --device_type cuda --dataset reddit --method UTA-LM
 ```
 in which dataset can be replaced with wiki for wizard of wikipedia dataset.
 
-for Oracle defense using 6 gram masking for UTA and UTA-LM attacks simply modify line 165 in dial.py to attn_mask[:,adv_starting_idx:] = 0
+# Notes 
+
+Note1: for Oracle defense using 6 gram masking for UTA and UTA-LM attacks simply modify line 165 in dial.py to attn_mask[:,adv_starting_idx:] = 0
 
 
-Note: To run the experiments, you will need Perspective API's key credientials. Please obtain the key and replace your key in places where API_KEY = 'replace the key with your key'
+Note2: To run the experiments, you will need Perspective API's key credientials. Please obtain the key and replace your key in places where API_KEY = 'replace the key with your key'
 
-For questions please reach out to ninarehm at usc dot edu
+Note3: For questions please reach out to ninarehm at usc dot edu
