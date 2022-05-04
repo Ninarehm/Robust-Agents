@@ -34,7 +34,7 @@ in which dataset can be replaced with wiki for wizard of wikipedia dataset.
 ```bash
 cd Defenses
 ```
-**To run our defense on UTCS attacks run:**
+**To run our defense on UTSC attacks run:**
 ```bash
 cd LERG-main
 python UTC_runner.py --device_type cuda --dataset reddit --classifier perspective-safety --criteria 2
@@ -56,7 +56,7 @@ python UTA_UTA-LM_runner.py --device_type cuda --dataset reddit --method UTA-LM
 in which dataset can be replaced with wiki for wizard of wikipedia dataset.
 
 
-**To run Non Sequitur defense on UTCS attacks run:**
+**To run Non Sequitur defense on UTSC attacks run:**
 ```bash
 cd FB_change_topic
 python UTC_runner.py --device_type cuda --dataset reddit --classifier perspective-safety --criteria 2
@@ -78,7 +78,7 @@ python UTA_UTA-LM_runner.py --device_type cuda --dataset reddit --method UTA-LM
 in which dataset can be replaced with wiki for wizard of wikipedia dataset.
 
 
-**To run Oracle defense on UTCS attacks run:**
+**To run Oracle defense on UTSC attacks run:**
 ```bash
 cd masking_trigger
 python UTC_runner.py --device_type cuda --dataset reddit --classifier perspective-safety --criteria 2
